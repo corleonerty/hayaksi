@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: #1a1a2e;
+  min-height: 100vh;
+}
+
+:root {
+  --primary: #e63946;
+  --primary-dark: #c1121f;
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #6c757d;
+  --border: #e9ecef;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
