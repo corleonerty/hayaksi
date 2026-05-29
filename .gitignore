@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# environment variables (GİZLİ - GitHub'a yükleme!)
+.env
+.env.local
+
+# misc
+.DS_Store
