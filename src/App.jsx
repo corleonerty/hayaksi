@@ -287,11 +287,11 @@ export default function HayAksi() {
                     🛡️ Bu duruma karşı sigortalı mısınız?
                   </p>
                   <p style={{ color: "#adb5bd", fontSize: "12px", margin: "4px 0 0 0" }}>
-                    UNION IB uzmanlarından ücretsiz sigorta teklifi alın.
+                    Frekans Sigorta uzmanlarından ücretsiz sigorta teklifi alın.
                   </p>
                 </div>
                 <a
-                  href="https://www.unionib.com.tr"
+                  href="https://frekanssigorta.com.tr/anasayfa"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
