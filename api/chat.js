@@ -77,7 +77,7 @@ export default async function handler(req, res) {
         "anthropic-beta": "prompt-caching-2024-07-31",
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-20250514",
+        model: "claude-sonnet-4-5",
         max_tokens: 1024,
         // System prompt'u cache_control ile işaretle
         // Anthropic bu prompt'u 5 dakika önbellekte tutar → tekrar token harcamaz
