@@ -142,10 +142,10 @@ export default function HayAksi() {
           <>
             <div style={{ textAlign: "center", marginBottom: "28px" }}>
               <h1 style={{ fontSize: "26px", fontWeight: 700, color: "#1a1a2e", marginBottom: "8px" }}>
-                Başına ne geldi?
+                Hay Aksi! Başına ne geldi?
               </h1>
               <p style={{ color: "#6c757d", fontSize: "15px" }}>
-                Kategori seç ya da durumunu yaz — hemen yardım edelim.
+                Kategori seç ya da durumunu yaz — hemen yardım edebileyim.
               </p>
             </div>
 
