@@ -41,7 +41,6 @@ export default function App() {
     setLoading(true);
 
     try {
-      const apiKey = process.env.REACT_APP_ANTHROPIC_API_KEY;
       if (!apiKey) {
         throw new Error("API key bulunamadı. Lütfen .env dosyasını kontrol edin.");
       }
