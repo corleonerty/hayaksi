@@ -287,11 +287,11 @@ export default function HayAksi() {
                     🛡️ Sigortan yok değil mi? Bu durumlardan seni koruyan bir poliçen olmalı!. 
                   </p>
                   <p style={{ color: "#fff", fontSize: "14px", margin: "4px 0 0 0" }}>
-                    Frekans Sigorta uzmanları sana ücretsiz danışmanlık için bekliyor.
+                    UNION IB Sigorta ve Reasürans Brokerleri sana ücretsiz danışmanlık için bekliyor.
                   </p>
                 </div>
                 <a
-                  href="https://frekanssigorta.com.tr/anasayfa"
+                  href="https://www.unionib.com.tr"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
