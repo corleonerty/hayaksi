@@ -46,21 +46,16 @@ export default function App() {
         throw new Error("API key bulunamadı. Lütfen .env dosyasını kontrol edin.");
       }
 
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": apiKey,
-          "anthropic-version": "2023-06-01",
-          "anthropic-dangerous-direct-browser-access": "true",
-        },
-        body: JSON.stringify({
-          model: "claude-sonnet-4-5",
-          max_tokens: 1024,
-          system: SYSTEM_PROMPT,
-          messages: newMessages,
-        }),
-      });
+      const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        messages: newMessages,
+        system: SYSTEM_PROMPT,
+      }),
+    });
 
       if (!res.ok) {
         const err = await res.json();
