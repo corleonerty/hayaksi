@@ -40,7 +40,10 @@ export default function App() {
     setStarted(true);
     setLoading(true);
 
-
+    try {
+      if (!apiKey) {
+        throw new Error("API key bulunamadı. Lütfen .env dosyasını kontrol edin.");
+      }
 
       const res = await fetch("/api/chat", {
       method: "POST",
