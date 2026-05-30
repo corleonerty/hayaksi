@@ -145,7 +145,7 @@ export default function HayAksi() {
                 Hay Aksi! Başına ne geldi?
               </h1>
               <p style={{ color: "#6c757d", fontSize: "15px" }}>
-                Kategori seç ya da durumunu yaz — hemen yardım edebileyim.
+                Kategori seç ya da durumunu yaz ki hemen yardım edebileyim.
               </p>
             </div>
 
@@ -202,7 +202,7 @@ export default function HayAksi() {
             {popular.length > 0 && (
               <div style={{ marginBottom: "20px" }}>
                 <p style={{ fontSize: "13px", fontWeight: 600, color: "#6c757d", marginBottom: "12px", textTransform: "uppercase", letterSpacing: "0.5px" }}>
-                  🔥 En Çok Sorulanlar
+                  🔥 İşte herkesin başına gelenler, Muhtemelen senin de cevabın aşağıda bir yerde..
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                   {popular.map((item, i) => (
@@ -224,7 +224,7 @@ export default function HayAksi() {
                       }}>
                       <span>{item.query}</span>
                       <span style={{ fontSize: "11px", color: "#adb5bd", marginLeft: "12px", whiteSpace: "nowrap" }}>
-                        {item.count} kez soruldu
+                        {item.count} kez Hay Aksi!
                       </span>
                     </button>
                   ))}
@@ -284,10 +284,10 @@ export default function HayAksi() {
               }}>
                 <div>
                   <p style={{ color: "#fff", fontSize: "14px", fontWeight: 600, margin: 0 }}>
-                    🛡️ Bu duruma karşı sigortalı mısınız?
+                    🛡️ Sigortan yok değil mi? Bu durumlardan seni koruyan bir poliçen olmalı!. 
                   </p>
                   <p style={{ color: "#adb5bd", fontSize: "12px", margin: "4px 0 0 0" }}>
-                    Frekans Sigorta uzmanlarından ücretsiz sigorta teklifi alın.
+                    Frekans Sigorta uzmanları sana ücretsiz danışmanlık için bekliyor.
                   </p>
                 </div>
                 <a
@@ -305,7 +305,7 @@ export default function HayAksi() {
                     whiteSpace: "nowrap",
                     flexShrink: 0,
                   }}>
-                  Teklif Al →
+                  Bilgi Al →
                 </a>
               </div>
             )}
